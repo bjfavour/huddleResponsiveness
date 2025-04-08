@@ -1,0 +1,1059 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.segment1 {
+    /* border-style: solid; */
+    border-width: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 70px;  
+}
+
+.segment1 img {
+    /* border-style: solid; */
+    border-width: 2px;
+    width: 150px;
+    height: auto;
+}
+
+.segment1 button {
+    width: 100px;
+    height: auto;
+    border-radius: 20px;
+    color: hsl(321, 100%, 78%);
+    border-color: hsl(321, 100%, 78%);
+}
+
+.segment2 {
+    /* border-style: solid; */
+    border-width: 2px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    padding: 80px;
+    font-family: poppins serif; 
+    font-size: 20px;
+}
+
+.firstbutton {
+border-style: solid;
+border-width: 3px;
+border-radius: 20px;
+width: 200px;
+height: 50px;
+padding: 5px;
+background-color: hsl(321, 100%, 78%);
+color: white;
+border-color: hsl(321, 100%, 78%);
+}
+
+.firstimage {
+    /* border-style: solid; */
+    border-width: 2px;
+    width: 800px;
+    height: auto;
+    padding: 80px;
+    margin: 0px 0px 0px 200px;
+}
+
+.messages {
+    /* border-style: solid; */
+    border-width: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.messages img {
+    width: 200px;
+    height: 100px;
+}
+
+.messages h1 {
+    font-size: 100px;
+}
+.messages p {
+    font-size: 30px;
+}
+
+
+.secondinfo {
+
+    /* border-style: solid; */
+    border-width: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F6FBFF;
+
+}
+
+.secondinfo img {
+    width: 450px;
+    height: auto;
+    
+}
+
+.message4 {
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 40px;
+}
+
+.message4 h1 {
+    font-size: 50px;
+}
+.message4 p {
+    font-size: 30px;
+}
+
+
+
+.bg1 {
+    margin: -1%;
+    width: 100vw;
+}
+
+.thirdinfo {
+
+    /* border-style: solid; */
+    border-width: 2px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 80px;
+
+
+}
+
+.thirdinfo img {
+    width: 450px;
+    height: auto;
+}
+
+.message5 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 50px;
+
+}
+
+.message5 h1 {
+    font-size: 50px;
+}
+.message5 p {
+    font-size: 30px;
+}
+
+#biggy {
+    font-size: 50px;
+}
+
+.fourthinfo {
+    /* border-style: solid; */
+    border-width: 2px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #F6FBFF;
+
+}
+
+.fourthinfo img {
+    width: 450px;
+    height: auto;
+}
+
+.fourthinfo h1 {
+    font-size: 30px;
+}
+
+.fifthinfo {
+    /* border-style: solid; */
+    border-width: 2px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    padding: 100px;
+
+}
+
+.sixthinfo {
+    /* border-style: solid; */
+    border-width: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #00252E;
+    color: white;
+}
+
+.message6 {
+    /* border-style: solid; */
+    border-width: 3px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    row-gap: 15px;
+
+}
+.message7 {
+    /* border-style: solid; */
+    border-width: 2px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.phone {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
+
+.first img {
+    width: 150px;
+    height: 30px;
+}
+
+.first {
+    /* border-style: solid; */
+    border-width: 2px;
+    padding: 20px;
+
+}
+
+.first img {
+    filter: invert(100%);
+}
+
+
+.endbutton {
+    /* border-style: solid; */
+    border-top-width: 20x;
+    border-radius: 8px;
+    width: 100px;
+    height: 30px;
+    background-color:  hsl(321, 100%, 78%);
+    color: white;
+}
+
+.icon {
+    /* border-style: solid; */
+    border-width: 2px;
+    width: 90px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .segment2 h1 {
+        font-size: 40px;
+    }
+    .segment2 p {
+        font-size: 25px;
+    }
+    .firstimage {
+        margin: 0px 0px 0px 200px;
+    }
+  
+    .message4 h1 {
+        font-size: 40px;
+    }
+    .message4 p {
+        font-size: 25px;
+    }
+    .secondinfo {
+
+    /* border-style: solid; */
+    border-width: 2px;
+    width: 1000px;
+    height: auto;
+    padding: 20px 30px;
+    width: 100vw;
+
+    }
+
+    .fourthinfo {
+        /* border-style: solid; */
+        border-width: 2px;
+        width: 1000px;
+        height: auto;
+        padding: 20px 30px;
+        width: 100vw;
+    }
+
+    .message5 p {
+        font-size: 30px;
+    } 
+    .thirdinfo {
+        /* border-style: solid; */
+        border-width: 2px;
+        width: 1000px;
+        height: auto;
+        margin: 0px 80px 40px 0px;
+
+    }
+    .bg1 {
+        width: 100vw;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .segment1 {
+        /* border-style: solid; */
+        border-width: 2px;
+        width: 1150px
+    }
+    .segment2 {
+        /* border-style: solid; */
+        border-width: 2px;
+        width: 1150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        
+
+    }
+    .segment2 h1 {
+        font-size: 40px;
+    }
+
+    .segment2 p {
+        font-size: 30px;
+        
+    }
+    .firstimage {
+        /* border-style: solid; */
+        border-width: 2px;
+        margin: 0px 0px 0px 200px;
+    }
+    .messages {
+        /* border-style: solid; */
+        border-width: 2px;
+        width: 150vw;
+
+    }
+
+    .messages h1 {
+        font-size: 80px;
+    }
+    .messages p {
+        font-size: 25px;
+    }
+    .messages img {
+        width: 150px;
+        height: 90px;
+    }
+
+
+    .bg1 {
+        width: 150vw;
+    }
+
+    .secondinfo {
+        /* border-style: solid; */
+        border-width: 2px;
+        width: 150vw;
+        padding: 40px;
+    }
+
+    .message4 h1 {
+        font-size: 55px;
+    }
+    #bigp {
+        font-size: 25px;
+    }
+
+
+
+    .thirdinfo {
+        /* border-style: solid; */
+        border-width: 2px;
+        width: 150vw;
+        margin: 0px;
+        padding: 10px;
+    }
+
+    .thirdinfo h1 {
+        font-size: 55px;
+    }
+
+    .thirdinfo p {
+        font-size: 25px;
+    }
+
+    .fourthinfo {
+        /* border-style: solid; */
+        border-width: 2px;
+        width: 150vw;
+        padding: 20px;
+    }
+
+    .fourthinfo p {
+        font-size: 25px;
+    }
+
+    #biggy {
+        font-size: 55px;
+    }
+
+    .fifthinfo {
+        /* border-style: solid; */
+        border-width: 2px;
+        width: 150vw;
+    }
+
+    .fifthinfo h1 {
+        font-size: 50px;
+    }
+
+    .fifthinfo button {
+        width: 250px;
+        height: 70px;
+        font-size: 20px;
+    }
+
+    .sixthinfo {
+        border-style: solid;
+        border-width: 2px;
+        width: 150vw;
+    }
+
+    .message6 P 
+    {
+        font-size: 20px;
+    }
+
+    .message6 img {
+        width: 250px;
+        height: 60px;
+    }
+    .message7 h1 {
+        font-size: 30px;
+    }
+
+    .message7 p {
+        font-size: 20px;
+    }
+    .input {
+        width: 250px;
+        height: 40px;
+        border-radius: 10px;
+    }
+
+    .endbutton {
+        width: 150px;
+        height: 40px;
+        font-size: 20px;
+    }
+
+    .bg1 {
+        margin: -2%;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:767px) {
+
+    .segment1 {
+        /* border-style: solid; */
+        border-width: 2px;
+        width: 200vw;
+        padding: 100px;
+    
+    }
+
+    .segment1 img {
+        width: 200px;
+        height: 50px;
+    }
+
+    .segment1 button {
+        width: 200px;
+        height: 60px;
+        font-size: 30px;
+    }
+    .segment2 {
+        /* border-style: solid; */
+        border-width: 2px;
+        width: 200vw;
+
+    }
+
+    .segment2 h1 {
+        font-size: 40px;
+    }
+
+    .segment2 p {
+        font-size: 25px;
+    }
+
+    .segment2 button {
+        width: 250px;
+        height: 60px;
+        font-size: 25px;
+    }
+    .firstimage {
+        /* border-style: solid; */
+        border-width: 2px;
+        margin: 0px 0px 0px 200px;
+    }
+    .messages {
+        /* border-style: solid; */
+        border-width: 2px;
+        width: 198vw;
+
+    }
+
+    .align h1 {
+        font-size: 100px;
+    }
+
+    .align p {
+        font-size: 30px;
+    }
+
+    .align img {
+        width: 150px;
+        height: 80px;
+    }
+
+
+    .bg1 {
+        width: 198vw;
+        margin: -2%;
+    }
+
+    .secondinfo {
+        /* border-style: solid; */
+        border-width: 2px;
+        width: 198vw;
+        padding: 40px;
+    }
+
+    .secondinfo h1 {
+        font-size: 70px;
+    }
+
+    .secondinfo p  {
+        font-size: 30px;
+    }
+
+    .thirdinfo {
+        /* border-style: solid; */
+        border-width: 2px;
+        width: 198vw;
+        margin: 0px;
+        padding: 10px;
+    }
+
+    .thirdinfo p {
+        font-size: 30px;
+    }
+
+    .thirdinfo h1 {
+        font-size: 70px;
+    }
+
+    .fourthinfo {
+        /* border-style: solid; */
+        border-width: 2px;
+        width: 198vw;
+        padding: 20px;
+    }
+
+    .fourthinfo p {
+        font-size: 30px;
+    }
+
+    #biggy {
+        font-size: 70px;
+    }
+
+    .fifthinfo {
+        /* border-style: solid; */
+        border-width: 2px;
+        width: 198vw;
+    }
+
+    .fifthinfo h1 {
+        font-size: 70px;
+    }
+
+    .fifthinfo button {
+        width: 300px;
+        height: 60px;
+        font-size: 30px;
+    }
+
+    .sixthinfo {
+        border-style: solid;
+        border-width: 2px;
+        width: 198vw;
+    }
+
+    .message6 img {
+        width: 250px;
+        height: 70px;
+    }
+    .message6 p {
+        font-size: 30px;
+    }
+
+    .message7 h1 {
+        font-size: 40px;
+    }
+
+    .message7 p {
+        font-size: 30px;
+    }
+
+    .input {
+        width: 250px;
+        height: 40px;
+        border-radius: 10px;
+    }
+
+    .endbutton {
+        width: 150px;
+        height: 40px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .segment1 {
+        /* border-style: solid; */
+        border-width: 2px;
+        width: 1150px
+    }
+
+    .segment1 img {
+        width: 200px;
+        height: 50px;
+    }
+
+    .segment1 button {
+        width: 200px;
+        height: 70px;
+    }
+    .segment2 {
+        /* border-style: solid; */
+        border-width: 2px;
+        width: 1150px;
+
+    }
+
+    .messages {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        width: 300vw;
+    }
+    .messages h1 {
+        font-size: 120px;
+    }
+
+    .messages p {
+        font-size: 50px;
+    }
+    .messages img {
+        width: 150px;
+        height: 100px;
+    }
+
+    .align {
+        /* border-style: solid; */
+        border-width: 3px;
+        margin: 100px;
+    }
+    .proper p {
+        font-size: 80px;
+    }
+
+    .segment2 h1 {
+        font-size: 75px;
+        text-align: center;
+    }
+
+    .segment2 p {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .segment2 button {
+        width: 300px;
+        height: 70px;
+        font-size: 20px;
+        padding: 10px;
+        
+        
+        
+    }
+    .firstimage {
+        /* border-style: solid; */
+        border-width: 2px;
+        margin: 0px 0px 0px 200px;
+    }
+
+    .message4 {
+        /* border-style: solid; */
+        border-width: 2px;
+        width: 300vw;
+        text-align: center;
+    }
+    .bigp {
+        font-size: 40px;
+        text-wrap: balance;
+    }
+
+    .message4 h1 {
+        font-size: 85px;
+    }
+
+    .secondinfo {
+        /* border-style: solid; */
+        border-width: 3px;
+        width: 300vw;
+        display: flex;
+        flex-direction: column-reverse;
+        
+    }
+
+    .thirdinfo {
+        /* border-style: solid; */
+        border-width: 2px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 300vw;
+        margin: 0%;
+    }
+
+    .blue {
+        /* border-style: solid; */
+        border-width: 2px;
+        width: 300vw;
+        text-align: center;
+
+    }
+
+    .blue h1 {
+        font-size: 75px;
+    }
+
+    .blue p {
+        font-size: 40px;
+        text-wrap: balance;
+        margin: 40px 50px;
+
+    }
+    .fourthinfo {
+        /* border-style: solid; */
+        border-width: 2px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        width: 300vw;
+        /* margin: 0%; */
+
+    }
+
+    .fifthinfo {
+        /* border-style: solid; */
+        border-width: 2px;
+        width: 300vw;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .fifthinfo h1 {
+        font-size: 75px;
+        text-align: center;
+    }
+
+    .fifthinfo button {
+        width: 400px;
+        height: 90px;
+        font-size: 35px;
+
+    }
+
+    .sixthinfo {
+        /* border-style: solid; */
+        border-width: 2px;
+        width: 300vw;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+
+    }
+
+    .last {
+        margin: -3%;
+    }
+
+
+
+    .message7 {
+        /* border-style: solid; */
+        border-width: 2px;
+
+    }
+    .message7 h1 {
+        font-size: 75px;
+    }
+    .message7 p {
+        font-size: 40px;
+    }
+
+    .bg1 {
+        width: 300vw;
+    }
+
+    .max {
+        /* border-style: solid; */
+        border-width: 3px;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        padding: 100px;
+
+    }
+
+    .input {
+        width: 200vw;
+        height: 130px;
+        margin: 30px 0px;
+        border-radius: 20px;
+
+    }
+
+    .max button {
+
+        width: 300px;
+        height: 100px;
+        font-size: 45px;
+        padding: 20px;
+        border-radius: 15px;
+    }
+
+    .message6 {
+        /* border-style: solid; */
+        border-width: 2px;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .message6 img {
+        width: 300px;
+        height: 100px;
+    }
+
+    .message6 p {
+        font-size: 40px;
+    }
+    .bi-telephone,
+    .bi-envelope,
+    .bi-facebook,
+    .bi-instagram,
+    .bi-twitter
+     {
+        font-size: 50px;
+    }
+
+}
+
+    @media screen and (min-width: 481px) and (max-width: 575px) {
+
+        .segment1 {
+            /* border-style: solid; */
+            border-width: 2px;
+            width: 200vw;
+            padding: 100px;
+        }
+    
+        .segment1 img {
+            width: 200px;
+            height: 50px;
+        }
+    
+        .segment1 button {
+            width: 200px;
+            height: 60px;
+            font-size: 30px;
+        }
+        .segment2 {
+            /* border-style: solid; */
+            border-width: 2px;
+            width: 200vw;
+    
+        }
+    
+        .segment2 h1 {
+            font-size: 30px;
+        }
+    
+        .segment2 p {
+            font-size: 20px;
+        }
+    
+        .segment2 button {
+            width: 250px;
+            height: 60px;
+            font-size: 25px;
+        }
+        .firstimage {
+            /* border-style: solid; */
+            border-width: 2px;
+            margin: 0px 0px 0px 100px;
+        }
+        .messages {
+            /* border-style: solid; */
+            border-width: 2px;
+            width: 198vw;
+    
+        }
+    
+        .align h1 {
+            font-size: 80px;
+        }
+    
+        .align p {
+            font-size: 25px;
+        }
+    
+        .align img {
+            width: 150px;
+            height: 80px;
+        }
+    
+    
+        .bg1 {
+            width: 198vw;
+            margin: -2%;
+        }
+    
+        .secondinfo {
+            /* border-style: solid; */
+            border-width: 2px;
+            width: 198vw;
+            padding: 40px;
+        }
+    
+        .secondinfo h1 {
+            font-size: 60px;
+        }
+    
+        .secondinfo p  {
+            font-size: 25px;
+        }
+    
+        .thirdinfo {
+            /* border-style: solid; */
+            border-width: 2px;
+            width: 198vw;
+            margin: 0px;
+            padding: 10px;
+        }
+    
+        .thirdinfo p {
+            font-size: 25px;
+        }
+    
+        .thirdinfo h1 {
+            font-size: 60px;
+        }
+    
+        .fourthinfo {
+            /* border-style: solid; */
+            border-width: 2px;
+            width: 198vw;
+            padding: 20px;
+        }
+    
+        .fourthinfo p {
+            font-size: 25px;
+        }
+    
+        #biggy {
+            font-size: 60px;
+        }
+    
+        .fifthinfo {
+            /* border-style: solid; */
+            border-width: 2px;
+            width: 198vw;
+        }
+    
+        .fifthinfo h1 {
+            font-size: 50px;
+        }
+    
+        .fifthinfo button {
+            width: 300px;
+            height: 60px;
+            font-size: 30px;
+        }
+    
+        .sixthinfo {
+            border-style: solid;
+            border-width: 2px;
+            width: 198vw;
+        }
+    
+        .message6 img {
+            width: 200px;
+            height: 50px;
+        }
+        .message6 p {
+            font-size: 25px;
+        }
+    
+        .message7 h1 {
+            font-size: 30px;
+        }
+    
+        .message7 p {
+            font-size: 25px;
+        }
+    
+        .input {
+            width: 250px;
+            height: 40px;
+            border-radius: 10px;
+        }
+    
+        .endbutton {
+            width: 150px;
+            height: 40px;
+            font-size: 20px;
+        }
+      
+    }
+
+    
+
